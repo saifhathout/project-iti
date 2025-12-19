@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation | Hell’s Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <h1 class="logo">Hell’s Kitchen</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="reservation.html" class="active">Reservation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="reservation-section">
+        <div class="reservation-container">
+            <h2>Reserve Your Table</h2>
+            <p>Book your spot and enjoy an unforgettable dining experience.</p>
+            <form class="reservation-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" required>
+                <input type="time" required>
+                <select required>
+                    <option value="">Number of Guests</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+                </select>
+                <textarea placeholder="Special Requests" rows="4"></textarea>
+                <button class="btn">Reserve Now</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>© 2025 Hell’s Kitchen. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
